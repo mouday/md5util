@@ -1,6 +1,9 @@
 # md5util
 Pyhton3下的实用工具集合
 
+[![PyPI](https://img.shields.io/pypi/v/md5util.svg)](https://pypi.org/project/chinesename/)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/md5util.svg)
+
 # 安装
 ```
 pip3 install md5util
@@ -28,6 +31,12 @@ pip3 install md5util
 # 相当于：
 >>> Md5Util.get_md5("Tom" + str(23))
 '55d61ba470dcf2241af55b734a283991'
+```
+
+mac自带的md5生成工具来检测生成的结果
+```bash
+$ md5 -s 'hello world'
+MD5 ("hello world") = 5eb63bbbe01eeed093cb22bb8f5acdc3
 ```
 
 ```
